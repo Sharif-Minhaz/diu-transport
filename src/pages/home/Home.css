@@ -1,0 +1,13 @@
+.bg {
+    background-image: linear-gradient(rgb(1, 26, 95, 0.7), rgb(1, 26, 95, 0.7)), url(../../images/wp2655676.jpg);
+    
+  /* Full height */
+  height: 100%;
+  min-height: 110vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

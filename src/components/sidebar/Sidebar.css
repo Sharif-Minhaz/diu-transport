@@ -1,0 +1,229 @@
+.container {
+	text-align: center;
+	font-size: 15px;
+	padding: 10%;
+}
+
+.BusTitle {
+	text-align: center;
+	padding-left: 5%;
+	color: aliceblue;
+}
+
+/* .bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./../../images/7N1e.gif);
+    position: relative;
+} */
+nav.sticky {
+	box-shadow: 0px 5px 10px rgba(100, 98, 98, 0.6);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.ddown {
+	margin-top: 4%;
+}
+.nv:hover {
+	text-decoration: none;
+	margin-top: 10;
+	margin-bottom: 10;
+	margin: 12px;
+	white-space: nowrap;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+	border-image: linear-gradient(
+		90deg,
+		rgba(255, 55, 68, 0) 1.85%,
+		#ffc508 50.04%,
+		rgba(252, 163, 17, 0) 96.91%
+	);
+	border-image-slice: 1;
+	width: 100%;
+	font-weight: 600;
+}
+
+.nv1 {
+	text-decoration: none;
+	margin-top: 10;
+	margin-bottom: 10;
+	margin: 12px;
+	white-space: nowrap;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+	border-image: linear-gradient(
+		90deg,
+		rgba(255, 55, 68, 0) 1.85%,
+		#ffc508 50.04%,
+		rgba(252, 163, 17, 0) 96.91%
+	);
+	border-image-slice: 1;
+	width: 100%;
+
+	font-weight: 600;
+}
+
+.nv6 {
+	text-decoration: none;
+	margin-top: 10;
+	margin-bottom: 10;
+	margin: 12px;
+	padding: 1%;
+	white-space: nowrap;
+	text-align: center;
+	border: 1px solid #ffc508;
+	border-radius: 3px;
+	width: 100%;
+
+	font-weight: 600;
+}
+.NavDropdown {
+	color: aliceblue;
+}
+.LOGOTXT {
+	text-decoration: none;
+	margin-top: 1%;
+	margin-left: 2%;
+	white-space: nowrap;
+	color: #ffc508;
+}
+
+.LOGOTXT:hover {
+	text-decoration: none;
+	white-space: nowrap;
+	color: #ffc508;
+}
+
+.nv {
+	text-decoration: none;
+	margin-top: 10;
+	margin-bottom: 10;
+	margin: 12px;
+	white-space: nowrap;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+	font-weight: 400;
+}
+
+.navbar-nav {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	list-style: square;
+	margin-left: 20%;
+	font-weight: 400;
+	font-size: medium;
+	font-weight: 600;
+}
+
+.navbar-toggler-icon {
+	border: 2px solid #ffc508;
+	border-radius: 2px;
+}
+
+/* .custom-toggler.navbar-toggler {
+    border-color: #FFC508;
+}  */
+.bar {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: none;
+	position: relative;
+}
+.bar ul {
+	padding: 2px 12px 2px 12px;
+}
+.bar.shrink ul {
+	padding: 9px;
+}
+.bar.shrink .icon {
+	margin-left: -4px;
+}
+.bar li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bar:hover li {
+	text-decoration: none;
+	border-radius: 1rem;
+	/* border-bottom-width: 2px; */
+	border-color: #ffffff0d;
+	background-color: #ffffff1c;
+}
+.bar.active li {
+	text-decoration: none;
+	border-radius: 1rem;
+	border-bottom-width: 2px;
+	border-color: #ffffff0d;
+	background-color: #ffffff1c;
+}
+
+.pra,
+.icon {
+	color: antiquewhite;
+	font-size: 15px;
+}
+
+.pra {
+	margin-left: -17px;
+}
+.pra-hidden {
+    display: none;
+}
+
+ul li .MuiListItemIcon-root.css-cveggr-MuiList.ItemIcon-root {
+	min-width: 40px !important;
+}
+
+.sidebar-container {
+    overflow: hidden;
+}
+
+.sidebar .profile_content {
+	position: absolute;
+	color: white;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.sidebar .profile_content .profile {
+	position: relative;
+	padding: 10px;
+	height: 60px;
+	background: #1d1b31;
+}
+
+.profile_content .profile .profile_details {
+	display: flex;
+	align-items: center;
+}
+.profile .profile_details img {
+	height: 45px;
+	width: 45px;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+.profile .profile_details .job_name {
+	margin-left: 15px;
+}
+.profile .profile_details .name {
+	font-size: 15px;
+	font-weight: 500;
+}
+.profile .profile_details .job {
+	font-size: 12px;
+}
+
+.profile #log_out {
+	position: absolute;
+	left: 88%;
+	bottom: 5px;
+	min-width: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	border-radius: 12px;
+	transform: translateX(-50%);
+}
